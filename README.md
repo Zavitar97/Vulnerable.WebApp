@@ -1,4 +1,4 @@
-# CyberSecurity_Project
+# CyberSecurity Project - Creating A Vulnerable Web Application
 The task was to create a web application that has at least five different flaws from the OWASP top ten list.  Written using Spring framework.
 
 This is a very simple application with a login page and a page to post discussions. Start the app and go to localhost:8080. You will be on the login page. 
