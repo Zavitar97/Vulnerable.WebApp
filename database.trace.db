@@ -1,0 +1,6 @@
+2017-01-26 17:52:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "PERSON" already exists; SQL statement:
+CREATE TABLE person (
+email VARCHAR(20) NOT NULL PRIMARY KEY,
+password VARCHAR(50)
+) [42101-193]

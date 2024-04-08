@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Database</title>
+    </head>
+    <body>
+        <div>Database</div>
+        <form th:action="@{/database/person}" method="POST">
+            <input type="submit" value="Get users"/>
+        </form>
+        <span th:each="item: ${datalist}" th:utext="${item}"></span>
+    </body>
+</html>
